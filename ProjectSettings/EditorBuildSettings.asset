@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Plugins/uPi(e) Menu/Example Scenes/Demo Circle Menu.unity
-    guid: 4960305ad67c46c4cafe2be44710a176
-  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/startScene.unity
+    guid: bd4b9b29115e02b4e94c4165aca74572
   m_configObjects: {}

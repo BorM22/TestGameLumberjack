@@ -12,7 +12,7 @@ public class loadScenes : MonoBehaviour
 
      public void ExitScene()
     {
-        SceneManager.LoadScene("Demo Circle Menu", LoadSceneMode.Single);
+        SceneManager.LoadScene("startScene", LoadSceneMode.Single);
     }
 
     public void ExitGame()

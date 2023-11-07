@@ -14,12 +14,21 @@ public class PlayerController : MonoBehaviour
     private Coroutine punchCoroutine;
     public GameObject[] dropPrefabs;
     public GameObject treePrefab;
+    private Vector3 _startPosition;
 
     private List<GameObject> objectsToDestroy = new List<GameObject>();
 
     void Start()
     {
+     _startPosition = transform.position;
+    }
 
+    void Update()
+    {
+        if(transform.position.y <= -15)
+        {
+            transform.position = _startPosition;
+        }
     }
 
     private void FixedUpdate()
